@@ -1,0 +1,68 @@
+header,
+body,
+footer {
+  padding: 2%;
+  margin: 2%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  border-radius: 5%;
+}
+
+table,
+caption,
+td,
+th {
+  border-style: solid;
+  background-color: sandybrown;
+}
+
+p {
+  font-size: 130%;
+  color: burlywood;
+}
+
+.bigFont {
+  font-size: 500%;
+}
+
+.noBorder {
+  border-style: hidden;
+}
+
+p.page1 {
+  color: coral;
+}
+
+.hcolor1 {
+  color: rgb(255, 112, 98);
+}
+
+.hcolor2 {
+  color: rgb(254, 201, 193);
+}
+
+body.b1 {
+  background-image: url(../images/background1.jpg);
+  background-size: cover;
+}
+
+body.b2 {
+  background-image: url(../images/background2.jpg);
+  background-size: cover;
+}
+
+body.b3 {
+  background-image: url(../images/background3.jpg);
+  background-size: cover;
+}
+
+body.b4 {
+  background-image: url(../images/background4.jpg);
+  background-size: cover;
+}

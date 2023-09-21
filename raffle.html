@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+  <link rel="stylesheet" href="css/mystyle.css">
+  <meta charset="UTF-8">
+  <title>Knockbeg Sports Club</title>
+</head>
+
+<body class="b2">
+  <header>
+    <h1 class="hcolor1">Raffle Details</h1>
+    <p>Information about the raffle taking place on the 16th of January</p>
+    <nav>
+      <a class="ui button red" href="index.html">Home</a>
+      <a class="ui button blue" href="location.html">About Knockbeg</a>
+      <a class="ui button green" href="raffle.html">Raffle Details</a>
+      <a class="ui button yellow" href="events.html">Events</a>
+    </nav>
+  </header>
+  <main>
+    <div class="ui container">
+      <div class="ui grid">
+        <div class="ui row">
+          <div class="eight wide column">
+            <h3 class="hcolor2">Our Aim</h3>
+            <p>The aim of the raffle is to raise money for so we have set a goal of 3 thousand euro. We ask anyone who has the money to spare and wishes to be in for a chance to win a prize to enter their details below ( Any money for tickets will be collected on the day of the raffle in person ). There are plenty of prizes to be won including a Nintendo Switch. The detail for what can be won in the raffle are below. If you would wish to donate any items for the raffle or help on the day please feel free to contact any of the organisers whos details are available on the events page before January 8th.</p>
+          </div>
+
+          <div class="eight wide column">
+            <img src="images/fundraising.jpg" alt="Generic Fundraising Image" width="300" height="280">
+          </div>
+        </div>
+
+        <div class="ui row">
+          <div class="eight wide column">
+            <img src="images/fundraising_2.png" alt="Generic Fundraising Image" width="300" height="280">
+          </div>
+          <div class="eight wide column">
+            <h3 class="hcolor1">About St Vincent de Paul</h3>
+            <p>The Society of St Vincent de Paul is an international voluntary organization in the Catholic Church, founded in 1833 for the sanctification of its members by personal service of the poor. Innumerable Catholic parishes have established "conferences", most of which affiliate with a diocesan council. The St Vincent de Paul Society is a lay Catholic organisation that aspires to live the gospel message by serving Christ in the poor with love, respect, justice, hope and joy, and by working to shape a more just and compassionate society.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="sixteen wide column">
+      <table class="center">
+        <caption>List of available raffles and prizes</caption>
+        <tr>
+          <th class="noBorder"></th>
+          <th>1st place prizes</th>
+          <th>2nd place prizes</th>
+          <th>3rd place prizes</th>
+          <th>4th place prizes</th>
+          <th>5th place prizes</th>
+        </tr>
+
+        <tr>
+          <th>Raffle One</th>
+          <td>Nintendo Switch</td>
+          <td>200 euro gift card</td>
+          <td>Signed hurley</td>
+          <td>Hairdryer</td>
+          <td>20 euro gift card</td>
+        </tr>
+
+        <tr>
+          <th>Raffle Two</th>
+          <td>Xbox Series X</td>
+          <td>Trip to Spain</td>
+          <td>100 euro gift card</td>
+          <td>Spa voucher</td>
+          <td>Colouring set</td>
+        </tr>
+
+        <tr>
+          <th>Raffle Three</th>
+          <td>Playstation 5</td>
+          <td>3 nights in a 5 star hotel</td>
+          <td>2 tickets to Shawn Mendes concert</td>
+          <td>Tayto Park tour</td>
+          <td>
+        </tr>
+      </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h2 class="hcolor1">Here is a form to enter youre details for the Raffle</h2><br>
+    <p>This is so we can prepare the right amount of tickets in advance and organise the seating plan</p>
+    <br>
+    <div class="center">
+      <form action="process.html" method="get" id="contact" class="ui form">
+        <div class="inline field">
+          <label>
+            Name
+          </label>
+          <br>
+          <input type="text" name="name" id="contactname" class="eight wide field" autofocus required pattern="[A-Z][a-z]+( [A-Z][a-z]+)*" title="enter your first name">
+        </div>
+        <br>
+        <div class="inline field">
+          <label>
+            Phone Number
+          </label>
+          <br>
+          <input type="tel" name="tel" id="telephone" class="eight wide field" required pattern="^(\(\d{3}\)|\d{3})-?\d{6,9}$" title="Enter your mobile number">
+        </div>
+        <br>
+        <div class="inline field">
+          <label>
+            Email
+          </label>
+          <br>
+          <input type="email" name="email" id="email" class="eight wide field" required pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$" title="Enter your email using correct alphabets">
+        </div>
+        <br>
+        <div class="inline field">
+          <label>
+            Raffle you wish to enter
+          </label>
+          <br>
+          <input type="text" name="text" id="name" class="eight wide field" required pattern="\S{3,}" title="allow at least 6 characters">
+        </div>
+        <br>
+        <div class="inline field">
+          <label>
+            Amount of Tickets You Wish to Buy
+          </label>
+          <br>
+          <select name="Age" id="Age" class="eight wide field">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+      </form>
+    </div>
+    <br>
+  </main>
+  <footer class="ui ">
+    <p>This page is a college project so do not take any of the content seriously - Daniel Keane, 1st Year Applied Computing Student, WIT </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.js"></script>
+</body>
+
+</html>
